@@ -1,0 +1,18 @@
+PART 1: INTRODUCTION
+# ES5
+- Javascript
+- ECMA Script
+- Version 5
+# ES2015
+- ECMA Script 2015
+- ES2015 aka ES6
+- New features
+- ES2015 = ES5 + New features
+# TYPESCRIPT
+- Open source
+- Microsoft
+- Typed superset of JS
+- Compiles to plain Javascript
+- Features of ES2015, ES2016
+- Types (optional)
+- Safer code
