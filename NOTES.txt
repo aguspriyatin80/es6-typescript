@@ -59,9 +59,19 @@ PART 06: LET KEYWORD
 - let solves hoisting 
 
 PART 07: LET IN FOR LOOPS
+
 PART 08: CONST KEYWORD
 - block scope
 - not hoisting
 - can not redeclare
 - it must assign a value
+
+PART 09: LET VS CONST
+
+PART 10: ARROW FUNCTIONS
+
+PART 11: LEXICAL 'THIS'
+
+PART 12: DEFAULT FUNCTION PARAMETERS
+
 
