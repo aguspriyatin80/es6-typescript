@@ -1,4 +1,4 @@
-PART 1: INTRODUCTION
+PART 01: INTRODUCTION
 # ES5
 - Javascript
 - ECMA Script
@@ -17,7 +17,7 @@ PART 1: INTRODUCTION
 - Types (optional)
 - Safer code
 
-PART 2: TRANSPILER
+PART 02: TRANSPILER
 - New fitures in ES2015
 - Chrome and Firefox
 - Transpiler
@@ -32,4 +32,23 @@ PART 2: TRANSPILER
          |
          V
         ES5          
-        
+
+PART 03: TOOLING SETUP
+# install nodejs
+# install typescript:
+sudo npm install typescript -g
+# cek installation:
+tsc -v
+# configure typescript, type command:
+tsc --init
+# edit file tsconfig.json, di dalam compilerOptions, tambahkan 2 baris kode ini:
+"rootDir": "./src", 
+"outDir": "./scripts",
+# buat folder 'src' dan 'scripts' di root
+# buat sebuah file misalnya demo.ts di dalam folder 'src'
+# pres Ctrl+Shift+B and choose tsc:watch-tsconfig.json
+
+PART 04: SCRATCH JS
+# install guides:https://github.com/richgilbank/Scratch-JS
+
+PART 05: VAR HOISTING & FUNCTIONAL SCOPE
