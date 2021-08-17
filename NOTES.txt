@@ -16,3 +16,20 @@ PART 1: INTRODUCTION
 - Features of ES2015, ES2016
 - Types (optional)
 - Safer code
+
+PART 2: TRANSPILER
+- New fitures in ES2015
+- Chrome and Firefox
+- Transpiler
+      ES2015
+         |
+         V
+                  Traceur  
+                /
+     TRANSPILER == TYPESCRIPT
+                \
+                  Babel
+         |
+         V
+        ES5          
+        
