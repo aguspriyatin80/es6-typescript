@@ -52,3 +52,4 @@ PART 04: SCRATCH JS
 # install guides:https://github.com/richgilbank/Scratch-JS
 
 PART 05: VAR HOISTING & FUNCTIONAL SCOPE
+PART 06: LET KEYWORD
