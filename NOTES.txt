@@ -52,4 +52,11 @@ PART 04: SCRATCH JS
 # install guides:https://github.com/richgilbank/Scratch-JS
 
 PART 05: VAR HOISTING & FUNCTIONAL SCOPE
+
 PART 06: LET KEYWORD
+- let block scope
+- let can not redeclare
+- let solves hoisting 
+
+PART 07: LET IN FOR LOOPS
+
