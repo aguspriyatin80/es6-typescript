@@ -53,6 +53,30 @@ displayColors.apply(void 0, __spreadArray([message], colorArray)); // SPREAD OPE
 // const newNumbers = [...numbers, 4, 5];
 // console.log(newNumbers);
 // return [1,2,3,4,5]
-// Kesimpulan
-// Rest Parameter : menggabungkan semua paramater pada function ke dalam array -> dari bentuk elemen tunggal seperti ini 1,2,3 menjadi seperti ini : [1,2,3]
-// Spread Operator: membagi elemen berbentuk array menjadi elemen tunggal -> dari bentuk array seperti ini [1,2,3] menjadi elemen terpisah seperti ini 1,2,3
+/* SUMMARY PERBEDAAN REST PARAMETER DAN SPREAD OPERATOR
+1. PENULISAN :
+   - jika parameter lebih dari 1, maka REST PARAMETER ditempatkan di belakang,
+     contoh: (text, angka, ...fruit)
+   - SPREAD OPERATOR tidak harus diletakkan di belakang tetapi sesuai kebutuhan
+     contoh: (text, ...fruit, newElement)
+
+3. KEGUNAAN :
+   - cukup dengan satu parameter menggunakan REST PARAMETER, dapat memanggil seluruh argumen yang diberikan
+     contoh:
+     # jika tidak menggunakan REST PARAMETER
+       const listFruit = ((fruit) => console.log(fruit)); // fungsi memiliki satu parameter yaitu fruit
+       listFruit('apple','guava'); // argumen kedua yaitu 'guava' tidak akan dipanggil karena yang hanya mengenali satu argumen
+     # jika menggunakan REST PARAMETER
+       const listFruit2 = ((...fruit) => console.log(fruit)); // fungsi memiliki satu parameter tetapi menggunakan REST PARAMETER (...) di depannya
+       listFruit2('apple','guava'); // argumen kedua dan seterusnya akan dipanggil karena semua argumen dapat dikenali
+
+   - SPREAD OPERATOR digunakan untuk menggabungkan 2 atau lebih array
+     contoh:
+      const a = [1,2,3];
+      const b = [4,5];
+      const c = [...a, ...b, 6];
+      console.log(c);
+3. PERBEDAAN PALING MENDASAR :
+   - REST PARAMETER menggabungkan semua parameter misalnya ('apple','guava') menjadi bentuk array seperti ['apple','guava']
+   - SPREAD OPERATOR mengurai bentuk array ['red','green'] menjadi elemen terpisah seperti ('red','green') atau kebalikan dari REST PARAMETER
+*/ 
