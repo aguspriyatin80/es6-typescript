@@ -3,8 +3,8 @@ class Person {
 }
 
 const p = new Person();
-// console.log(p);
-console.log(p.greet === Person.prototype.greet);
+console.log(p);
+// console.log(p.greet === Person.prototype.greet);
 
 // employee(); // hoisting
 // function employee() { }
