@@ -1,11 +1,7 @@
 
-// import {fname, lname, obj} from './moduleB.js'  // log Module B laoded
+import { greet, GreetMessage } from './moduleB.js'
 
-// obj.name = "Ross";
-// console.log(obj.name);
-// console.log(`${fname} ${lname}`);
+greet("Hello World");
 
-// import firstName from './moduleB.js'
-import { default as f } from './moduleB.js'
-// console.log(`${firstName}`);
-console.log(`${f}`);
+let gm = new GreetMessage();
+gm.greet();

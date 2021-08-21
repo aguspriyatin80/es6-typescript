@@ -1,4 +1,0 @@
-npm init -y
-npm install es6-module-loader traceur systemjs
-# create index.html in root
-# create folder src contains moduleA.js and moduleB.js

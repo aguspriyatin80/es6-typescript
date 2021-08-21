@@ -1,11 +1,12 @@
-// let fname = "Chandler";
-// let lname = "Bing";
+export function greet(message) {
+    console.log(message);
+};
 
-// let obj = {
-//     name: "Joey"
-// };
-// console.log('Module B loaded');
-// export { fname, lname, obj }
-
-let fname = "Chandler";
-export default fname;
+export class GreetMessage {
+    constructor() {
+        console.log("Constructor");
+    }
+    greet() {
+        console.log("Greet function");
+    }
+};
