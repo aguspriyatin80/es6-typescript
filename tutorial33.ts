@@ -1,16 +1,20 @@
-let myMap1 = new Map([
+let myMaps = new Map([
     ["fname", "Chandler"],
     ["lname", "Bing"]
 ]);
 
-for (let [key, value] of myMap1.entries()) {
+for (let [key, value] of myMaps.entries()) {
     console.log(`${key} -> ${value}`);
 }
 
-for (let value of myMap1.values()) {
+for (let value of myMaps.values()) {
     console.log(value);
 }
 
-for (let key of myMap1.keys()) {
+for (let key of myMaps.keys()) {
     console.log(key);
 }
+
+/* use command this
+tsc tutorial33.ts --downlevelIteration
+*/
