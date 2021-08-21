@@ -1,5 +1,3 @@
-import { fname, lname, obj } from './moduleB.js'  // log Module B laoded
+import { default as f } from './moduleB.js'
 
-obj.name = "Ross";
-console.log(obj.name);
-console.log(` ${fname} ${lname}`);
+console.log(f);
