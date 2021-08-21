@@ -1,6 +1,6 @@
-let mySet = new Set();
-let ob1 = {};
-let ob2 = {};
+let mySet1 = new Set();
+let obj1 = {};
+let obj2 = {};
 
 mySet.add("Hello");
 mySet.add(1);
