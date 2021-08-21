@@ -1,9 +1,0 @@
-# Module Syntax - ES2015
-# Module Loading - WIP
-
-1) create folder es-modules
-2) open terminal, run command:
-npm install es6-module-loader traceur systemjs
-3) create index.html:
-4) create folder src contains moduleA.js and moduleB.js
-

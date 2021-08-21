@@ -1,5 +1,8 @@
-let fname = "Agus"
-let lname = "Priyatin"
+let fname = "Chandler";
+ let lname = "Bing";
 
-console.log('module B loaded');
-export {fname,lname}
+ let obj = {
+     name: "Joey"
+ };
+console.log('Module B loaded');
+ export {fname, lname, obj}
